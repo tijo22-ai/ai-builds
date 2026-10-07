@@ -1,0 +1,7 @@
+job_type,description,low,high,urgent_fee
+leaky_faucet,Fix a dripping tap or faucet,120,180,75
+clogged_drain,Clear a blocked sink tub or shower drain,150,250,75
+toilet_repair,Fix a running leaking or blocked toilet,120,250,75
+burst_pipe,Repair a burst or leaking pipe,300,800,150
+water_heater_repair,Diagnose and repair a water heater,250,500,100
+water_heater_replace,Remove and install a new tank water heater,1800,3200,150
