@@ -1,6 +1,8 @@
 # 12-hour flight plan: offline build sprint
 
-**Start here.** If you haven't done `PREFLIGHT.md` yet, stop and do that first, while you still have internet.
+**First session on the plane? Open `START_HERE.md` first.** It covers setting up your screen, which document to read for each block, the work loop, and Block 1 step by step. This file is the plan you'll keep open alongside.
+
+If you haven't done `PREFLIGHT.md` yet, stop and do that first, while you still have internet.
 
 ## What this covers, honestly
 
@@ -26,18 +28,10 @@ uv run flight/preflight_check.py
 
 `export UV_OFFLINE=1` only lasts for that Terminal window. If you open a new window, run it again.
 
-Then create `flight-log.md` in the `ai-builds` folder and paste this in:
+Then create your log:
 
-```markdown
-# Flight log
-
-| Block | Start | End | DONE / ASSISTED / SKIPPED | What broke or confused me |
-|-------|-------|-----|---------------------------|---------------------------|
-| 1 | | | | |
-
-## Intake scoring (Block 6)
-| # | Correct? | What it got wrong |
-|---|----------|-------------------|
+```bash
+cp flight/flight-log-template.md flight-log.md
 ```
 
 This log becomes the raw material for your case study, and it's what you bring to Claude after you land.
