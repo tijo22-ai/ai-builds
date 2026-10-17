@@ -4,7 +4,7 @@ Fill this in as you go. After you land, it's what we go through together, and la
 
 | Block | Start | End | DONE / ASSISTED / SKIPPED | What broke or confused me |
 |-------|-------|-----|---------------------------|---------------------------|
-| | 1 | 2:00pm | 4:30pm | DONE | Forgot load_dotenv() 3 times; quotes around question sent the wrong text; "User" instead of "user"; .env on Mac said qwen3:14b |
+| 1 | 2:00pm | 4:30pm | DONE | Forgot load_dotenv() 3 times; quotes around question sent the wrong text; "User" instead of "user"; .env on Mac said qwen3:14b |
 | 2 | | | | |
 | 3 | | | | |
 | Break | | | | |
